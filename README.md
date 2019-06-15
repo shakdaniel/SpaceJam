@@ -1,1 +1,3 @@
 # SpaceJam
+
+### `npm start`
