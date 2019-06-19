@@ -1,0 +1,29 @@
+.posters {
+  display: flex;
+  flex-flow: column;
+  /* justify-content: space-between; */
+  padding: 0 120px 120px;
+}
+
+.posters > span {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.posters > span > img {
+  margin-right: 20px;
+  width: calc(20% - 16px);
+}
+
+.posters > span > img:last-child {
+  margin-right: 0;
+}
+
+.posters h2 {
+  color: #222;
+  font-size: 2em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}

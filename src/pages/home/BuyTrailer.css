@@ -1,0 +1,46 @@
+.BuyTrailer {
+  display: flex;
+  justify-content: space-between;
+  background: #191919;
+  padding: 60px 120px 120px;
+}
+
+.BuyTrailer > span {
+  width: calc(50% - 60px);
+}
+
+.BuyTrailer > span img {
+  width: 100%;
+}
+
+.BuyTrailer h2 {
+  color: #f2f2f2;
+  font-size: 2em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.buy {
+  text-align: center;
+}
+.buy img {
+  margin-bottom: 60px;
+}
+.buy a {
+  color: #f2f2f2;
+  font-size: 2em;
+  letter-spacing: 0.05em;
+  background: #f2994a;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0.2em 1em;
+  border-radius: 1.1em;
+  font-weight: 100;
+  box-shadow: -5px -5px 10px -5px rgba(242, 153, 74, 0.75),
+    5px 5px 10px -5px rgba(0, 0, 0, 0.75);
+  transition: 0.25s;
+}
+.buy a:hover {
+  box-shadow: -1px -1px 1px rgba(242, 153, 74, 1), 2px 2px 1px rgba(0, 0, 0, 1);
+  text-shadow: 0px 1px 1px rgba(202, 120, 120, 0.55);
+}

@@ -1,0 +1,67 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.hero {
+  padding-top: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  bottom: 10vh;
+  transform: rotate(45deg);
+  box-shadow: 1px 1px 0 1px #f2f2f2, 3px 3px 0 1px rgba(0, 0, 0, 0.1);
+  z-index: 888;
+}
+
+.circles {
+  position: absolute;
+  width: 75vh;
+  height: 75vh;
+  border-radius: 50%;
+  left: 50%;
+  margin-left: -37.5vh;
+  bottom: 2vh;
+  background: rgba(207, 6, 90, 0.5);
+  box-shadow: 0 0 0 10vw rgba(207, 6, 90, 0.15),
+    0 0 0 20vw rgba(207, 6, 90, 0.1);
+}
+.hero-section img {
+  height: 60vh;
+  z-index: 777;
+}
+.title {
+  position: relative;
+  z-index: 888;
+  text-align: center;
+}
+
+.hero-section > span {
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 0.2em;
+  color: #f2f2f2;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 1), 2px 2px 3px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  z-index: 888;
+}
+.hero-section > span:first-child {
+  margin-right: -80px;
+}
+.hero-section > span:last-child {
+  margin-left: -80px;
+}
+
+.hero-section span strong {
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}

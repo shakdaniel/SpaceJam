@@ -1,0 +1,26 @@
+.technology {
+  display: flex;
+  flex-flow: column;
+}
+
+.technology h1 {
+  width: 100%;
+  padding: 60px 0 120px;
+  overflow: hidden;
+  position: relative;
+}
+
+.technology-container {
+  background: #f9f9f9;
+  margin: -60px 120px 60px;
+  padding: 60px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  z-index: 555;
+}
+.technology-container h2 {
+  color: #222;
+  font-size: 2em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}

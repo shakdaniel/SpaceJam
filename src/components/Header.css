@@ -1,0 +1,40 @@
+header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  padding: 0 120px;
+  background: #222;
+  top: 0;
+  z-index: 999;
+}
+.logo {
+  height: 70px;
+  margin-bottom: -20px;
+}
+nav {
+  display: flex;
+  flex-flow: row wrap;
+}
+nav > a {
+  margin-left: 20px;
+  padding: 6px 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.1em;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+nav > a:first-child {
+  margin-left: 0;
+}
+
+nav > a:hover {
+  border-bottom: 2px solid #4f4f4f;
+}
+nav > a.active {
+  border-bottom: 2px solid #6fcf97;
+}
