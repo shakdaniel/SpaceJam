@@ -161,7 +161,7 @@ h1 {
 }
 
 .space-gradient {
-  background: url(./assets/Space-Transparent.png) no-repeat center center,
+  background: url(./assets/Nebula-b.png) no-repeat center center,
     linear-gradient(160deg, #2b073f, #4d0f9e);
   background-size: cover;
 }

@@ -7,4 +7,4 @@ import * as serviceWorker from "./serviceWorker";
 ReactDOM.render(<App />, document.getElementById("root"));
 
 // change unregister() to register() to work offline and load faster.
-serviceWorker.register();
+serviceWorker.unregister();
