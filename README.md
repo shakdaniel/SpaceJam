@@ -1,10 +1,11 @@
 # SpaceJam Website 2019
 
-The unofficial website.
+The unofficial website
 
 ---
 
-Website: https://spacejamsite.netlify.com/
+Website: https://spacejamsite.netlify.com
+
 Figma Design: https://www.figma.com/file/EbP53ZbloBSCKEcXEhEgmRyv/Space_Jam_v1?node-id=2%3A3
 
 ## Sitemap
