@@ -1,12 +1,20 @@
 # SpaceJam Website 2019
 
-The unofficial website
+The unofficial website: https://spacejamsite.netlify.com
 
----
+Design: https://www.figma.com/file/EbP53ZbloBSCKEcXEhEgmRyv/Space_Jam_v1?node-id=2%3A3
 
-Website: https://spacejamsite.netlify.com
+## TaskList
 
-Figma Design: https://www.figma.com/file/EbP53ZbloBSCKEcXEhEgmRyv/Space_Jam_v1?node-id=2%3A3
+- [x] Research spacejam's old website.
+- [x] Brainstorm and Statergize my approach.
+- [x] Sketch wireframes.
+- [x] Design mockups for website.
+- [x] Develop website using react.
+- [x] Launch a testing stage.
+- [ ] Refactor codes.
+- [ ] Unit Test Codes
+
 
 ## Sitemap
 
@@ -76,14 +84,3 @@ $ npm run start
 or
 $ yarn start
 ```
-
-## TaskList
-
-- [x] Research spacejam's old website.
-- [x] Brainstorm and Statergize my approach.
-- [x] Sketch wireframes.
-- [x] Design mockups for website.
-- [x] Develop website using react.
-- [x] Launch a testing stage.
-- [ ] Refactor codes.
-- [ ] Unit Test Codes
